@@ -1,0 +1,12 @@
+group,description
+human-human,"RealPersonaChat, 13,581 dialogues, all utterances"
+claude-haiku-4-5,"150 dialogues, 20 utterances, 10 persona items, main comparison"
+claude-sonnet-5,"150 dialogues, 20 utterances, 10 persona items, main comparison"
+claude-opus-5,"150 dialogues, 20 utterances, 10 persona items, main comparison"
+gpt-5-nano,"150 dialogues, 20 utterances, 10 persona items, main comparison"
+gpt-4o-mini,"150 dialogues, 20 utterances, 10 persona items, main comparison"
+claude-opus-5__persona-3,"150 dialogues, 3 persona items"
+claude-opus-5__persona-0,"150 dialogues, no persona"
+claude-opus-5__persona-10__to60,"50 dialogues continued to 60 utterances, 10 persona items"
+claude-opus-5__persona-0__to60,"50 dialogues continued to 60 utterances, no persona"
+claude-opus-5__persona-3__to60,"50 dialogues continued to 60 utterances, 3 persona items"

@@ -1,0 +1,28 @@
+[project]
+name = "semantic-closure"
+version = "0.1.0"
+description = "NTIC-inspired measure of informational closure in dialogue, using embedding similarity in place of mutual information"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=1.0.0",
+    "lightgbm>=4.7.0",
+    "matplotlib>=3.11.0",
+    "numpy>=2.0,<2.4",
+    "openai>=2.45.0",
+    "pandas>=3.0.3",
+    "pyarrow>=25.0.0",
+    "python-dotenv>=1.2.2",
+    "scikit-learn>=1.9.0",
+    "tqdm>=4.68.4",
+    "umap-learn>=0.5.12",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.7,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]

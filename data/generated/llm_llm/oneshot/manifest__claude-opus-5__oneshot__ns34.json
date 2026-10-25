@@ -1,0 +1,23 @@
+{
+ "model": "claude-opus-5",
+ "arm": "sequential_length_own_no_hint_v2",
+ "namespace": 34,
+ "n_dialogues": 50,
+ "turns": 60,
+ "generation": "1発話 = 1呼び出し(逐次)。Anthropic Messages API に system と user の2メッセージで発話ごとに投げる(temperature 1.0, thinking disabled)",
+ "few_shot": "なし(例を示さない)",
+ "length_control": "1発話 1〜2 文程度、20 字前後が目安と指示",
+ "prompt_revision": 2,
+ "temperature": 1.0,
+ "profile_visibility": "自分のプロフィールだけを見せる(相手のプロフィールは渡さない)",
+ "profile_items": "10 項目中 3 項目を話者ごとに乱数(seed_rng)で選んで渡す",
+ "topic_hint": "入れない",
+ "seed_pool": "重複ファイルと片方でもペルソナを欠く対話を除いた 13,581 件から、乱数シード 0 の単純無作為抽出で 50 件",
+ "system_prompt": "あなたは日本語のテキストチャットで交わされる雑談を作る人です。\n対話の途中までを示すので、指示された話者の次の1発話を作ってください。\n\n守ること:\n- 1発話は1〜2文程度の簡潔な発話にする(20字前後が目安)。チャットなので短くやり取りする。\n- 話者名やラベル、鉤括弧は付けず、発話の本文だけを返す。",
+ "call_stats": {
+  "calls": 2000,
+  "input_tokens": 2855875,
+  "output_tokens": 51865,
+  "utterances": 2000
+ }
+}
